@@ -87,7 +87,7 @@ line-height: 3.5rem;
     margin-bottom: 20px;
 
 }
-.banner-btn button{
+.banner-btn, .features-btn button{
     width: 196px;
     height: 44px;
     border-radius: 41px;
@@ -197,4 +197,45 @@ line-height: 3.5rem;
     padding: 7px 13px;
 
 
+}
+/* feature-product area desgin */
+#feature-product{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 450px;
+    gap: 50px;
+
+}
+.feature-left{
+    width: 45%;
+    text-align: center;
+
+}
+.feature-left img{
+    width: 404px;
+    height: 270px;
+}
+.feature-right{
+    width: 55%;
+}
+.features-title{
+    font-size: 1.8rem;
+    color: var(--fotter);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.features-para{
+    width: 501px;
+    height: 88px;
+    font-size: 1rem;
+    font-weight: 600;
+    color:  rgb(108, 108, 108);
+    line-height: 1.4rem;
+}
+.features-btn button{
+    border-radius: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
